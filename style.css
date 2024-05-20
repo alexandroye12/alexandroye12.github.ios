@@ -1,0 +1,92 @@
+header {
+    background-color: #333;
+    color: orange;
+    padding: 20px;
+    border-radius: 15px;
+}
+.contenedor1{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor2    {
+    display: flex;
+    justify-content: center;
+}
+.division1 {
+    width: 45%;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 20px;
+    box-sizing: border-box
+}
+.division2 {
+    width: 45%;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 20px;
+    box-sizing: border-box
+}
+footer {
+    background-color: #333;
+    color: orange ;
+    left: 0;
+    padding: 20px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    
+}
+.division1 h2 {
+    background-color: orange 
+}
+.division2 h2 {
+    background-color: orange
+}
+p img {
+    float: right ;
+    margin-right: 0; 
+    max-width: 100px; 
+    display: block;
+    margin-left: auto;
+    height:auto 
+
+}
+.imagen-izquierda {
+    float: left; 
+    width: 250px; 
+    height: 250px;
+    margin-right: 10px;
+}
+.contenedor-redes img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 150px; 
+    margin-left: auto;
+}
+.boton {
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.navegacion{
+    display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+.boton:hover {
+    background-color: blue; 
+}
+.div-with-line {
+    border-bottom: 2px solid black; 
+    padding-bottom: 10px; 
+    width: 100%;
+  }
